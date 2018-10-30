@@ -1,7 +1,7 @@
-## 独立研究
-## 基于协整关系的高频统计套利
-## 数据来源 coinbase api， by the code provided by https://github.com/nalepae/crypto-downloader
-## 采用统计学习课程TA提供的回测代码，成交价为一分钟内的最高价、最低价、开盘价、收盘价的均值，最大成交量为成交量的1/4
+### 独立研究
+### 基于协整关系的高频统计套利
+#### 数据来源 coinbase api， by the code provided by https://github.com/nalepae/crypto-downloader
+### 采用统计学习课程TA提供的回测代码，成交价为一分钟内的最高价、最低价、开盘价、收盘价的均值，最大成交量为成交量的1/4
 
 跟踪协整关系，每分钟滚动更新参数，不同参数所建仓位每分钟单独计算止损止盈
 自编写基于价差斜率的延时开仓策略，极大减小回撤
